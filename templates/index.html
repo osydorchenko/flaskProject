@@ -1,0 +1,15 @@
+<h2>Hello, {{ name }} {{ lastname }}!</h2>
+
+<ul>
+    {% if flag %}
+
+        {% for i in data %}
+
+            <li>{{ i }}</li>
+
+        {% endfor %}
+    {% else %}
+        <p>There are no data!</p>
+    {% endif %}
+
+</ul>
